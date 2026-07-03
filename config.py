@@ -1,15 +1,7 @@
-# ==========================================
-# MASTER CONFIGURATION CHEAT SHEET
-# Fill these in with your unique assigned values from the Exam Portal!
-# ==========================================
-
-# 1. Your IITM Email
 EMAIL = "23f2000504@ds.study.iitm.ac.in"
 
-# 2. Q1: CORS Allowed Origin
 Q1_ALLOWED_ORIGIN = "https://dash-nhuhrk.example.com"
 
-# 3. Q2: OAuth JWKS (Issuer, Audience, and Public Key)
 ISSUER = "https://idp.exam.local"
 AUDIENCE = "tds-upvajy3u.apps.exam.local"
 PUBLIC_KEY_PEM = """-----BEGIN PUBLIC KEY-----
@@ -29,15 +21,15 @@ Q3_DEBUG = False
 Q3_LOG_LEVEL = "info"
 
 # 5. Q5: Analytics (Find the API key in the Q5 instruction tab)
-Q5_API_KEY = "ak_..."
+Q5_API_KEY = "ak_q7esc8lanscju2zmobfpspgb"
 
 # 6. Q9: Idempotency & Rate Limit (Find total orders and rate limit)
-Q9_TOTAL_ORDERS = 50
-Q9_RATE_LIMIT = 15
+Q9_TOTAL_ORDERS = 43
+Q9_RATE_LIMIT = 18
 
 # 7. Q10: Middleware Rate Limit (Find allowed origin and rate limit)
-Q10_ALLOWED_ORIGIN = "https://app-xxxxxx.example.com"
-Q10_RATE_LIMIT = 8
+Q10_ALLOWED_ORIGIN = "https://app-50nb1i.example.com"
+Q10_RATE_LIMIT = 12
 
 # ==========================================
 # FIXED VARIABLES (Do not change these)
