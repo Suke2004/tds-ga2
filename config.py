@@ -15,8 +15,8 @@ dQIDAQAB
 -----END PUBLIC KEY-----"""
 
 # 4. Q3: 12-Factor Config (Manually merge the variables)
-Q3_PORT = 8000
-Q3_WORKERS = 1
+Q3_PORT = 8920
+Q3_WORKERS = 11
 Q3_DEBUG = False
 Q3_LOG_LEVEL = "info"
 
